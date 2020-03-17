@@ -26,7 +26,6 @@ def input_validator():
                 },
             },
         },
-        "required" : ["filters"],
     }
     format_checker = FormatChecker()
 
