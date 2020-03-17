@@ -12,7 +12,7 @@ from flask_cors import CORS
 
 from json_validator import input_validator
 
-df = pd.read_json("https://greendeck-datasets-2.s3.amazonaws.com/netaporter_gb_similar.json", lines=True)
+df = pd.read_json("netaporter.json", lines=True)
 
 app = flask.Flask(__name__)
 CORS(app)
