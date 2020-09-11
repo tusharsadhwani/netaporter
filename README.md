@@ -1,7 +1,7 @@
 Greendeck Python Assignment
 
 
-- General Approach:
+## General Approach:
 
 A single endpoint is created that will handle all queries.
 It first validates the input json format.
@@ -15,7 +15,7 @@ and calculates and adds the field to the response dictionary.
 Finally it sends the response as a JSON.
 
 
-- Filtering:
+## Filtering:
 
 For filtering by discount, brand name, etc.
 it uses the apply function to obtain each row value
